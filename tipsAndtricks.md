@@ -48,6 +48,16 @@ get log by container selector label name and container name
 
     kubectl logs -l run=uaf-api -c mysql
     
+## rollout 
+get status of rollout for deployment
+
+    kubectl rollout status deployment/uaf-api-deployment
+
+status rollout ok
+
+deployment "uaf-api-deployment" successfully rolled out
+
+    
 ## apply patch 
 can update any resource without recreate 
 
