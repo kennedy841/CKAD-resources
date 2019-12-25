@@ -46,6 +46,11 @@ Api-resources gives you the supported api resources (duh), but it also gives you
     kubectl get persistentvolumeclaim
 
     kk get pvc
+    
+## logging 
+get log by container selector label name and container name
+
+kubectl logs -l run=uaf-api -c mysql
 
 ## Find the fields for supported resources
 
