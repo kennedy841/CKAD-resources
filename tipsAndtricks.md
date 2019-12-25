@@ -46,7 +46,7 @@ Api-resources gives you the supported api resources (duh), but it also gives you
 ## logging 
 get log by container selector label name and container name
 
-kubectl logs -l run=uaf-api -c mysql
+    kubectl logs -l run=uaf-api -c mysql
 
 ## Find the fields for supported resources
 
