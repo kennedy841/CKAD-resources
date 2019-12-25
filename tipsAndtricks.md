@@ -47,6 +47,14 @@ Api-resources gives you the supported api resources (duh), but it also gives you
 get log by container selector label name and container name
 
     kubectl logs -l run=uaf-api -c mysql
+    
+## apply patch 
+can update any resource without recreate 
+
+    kubectl patch secret app-secret --patch "data:                                                                            
+         db.password: cGFzcw==
+         db.username: dWFmLWFwaQo=
+         db.root.password: cm9vdA=="
 
 ## Find the fields for supported resources
 
